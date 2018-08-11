@@ -12,22 +12,22 @@
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
     <div class="container">
-      <a href="home.html" class="navbar-brand">Blogen</a>
+      <a href="index.html" class="navbar-brand">Blogen</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item px-2">
-            <a href="home.html" class="nav-link">Dashboard</a>
+            <a href="index.html" class="nav-link">Dashboard</a>
           </li>
           <li class="nav-item px-2">
             <a href="posts.html" class="nav-link">Posts</a>
           </li>
-          <li class="nav-item px-2 active">
+          <li class="nav-item px-2">
             <a href="categories.html" class="nav-link">Categories</a>
           </li>
-          <li class="nav-item px-2">
+          <li class="nav-item px-2 active">
             <a href="users.html" class="nav-link">Users</a>
           </li>
         </ul>
@@ -58,11 +58,11 @@
     </div>
   </nav>
 
-  <header id="main-header" class="py-2 bg-success text-white">
+  <header id="main-header" class="py-2 bg-warning text-white">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h1><i class="fa fa-folder"></i> Categories</h1>
+          <h1><i class="fa fa-user"></i> Users</h1>
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Search">
             <span class="input-group-btn">
-              <button class="btn btn-success">Search</button>
+              <button class="btn btn-warning">Search</button>
             </span>
           </div>
         </div>
@@ -84,48 +84,36 @@
     </div>
   </section>
 
-  <!-- CATEGORIES -->
+  <!-- USERS -->
 
-  <section id="categories">
+  <section id="users">
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="card">
             <div class="card-header">
-              <h4>Latest Categories</h4>
+              <h4>Latest Users</h4>
             </div>
             <table class="table table-striped">
               <thead class="thead-dark">
                 <tr>
                   <th>#</th>
-                  <th>Title</th>
-                  <th>Date Posted</th>
+                  <th>Name</th>
+                  <th>Email</th>
                   <th></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td scope="row">1</td>
-                  <td>Web Development</td>
-                  <td>May 10, 2018</td>
+                  <td>John Doe</td>
+                  <td>jdoe@gmai.com</td>
                 </tr>
 
                 <tr>
                   <td scope="row">2</td>
-                  <td>Tech Gadgets</td>
-                  <td>May 12, 2018</td>
-                </tr>
-
-                <tr>
-                  <td scope="row">4</td>
-                  <td>Business</td>
-                  <td>May 15, 2018</td>
-                </tr>
-
-                <tr>
-                  <td scope="row">6</td>
-                  <td>Health & Wellness</td>
-                  <td>May 18, 2018</td>
+                  <td>Harry</td>
+                  <td>harry@gmail.com</td>
                 </tr>
 
               </tbody>
